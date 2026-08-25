@@ -1,0 +1,26 @@
+core, occ, virt, freeze, discard 41 101 101 570 570 0 0
+Using casida factors ? 0
+Performing reorthonormalization ? 1
+Number of states (incl ground) = 3
+nocc_eff = 101 101
+virt_eff = 570 570
+cis_casida freezing 0 discarding 0
+Number of determinants = 115141
+Exc. state 1 sum of squares of frozen core TDDFT coefficients = 0.000000000000
+Exc. state 1 sum of squares of frozen virtual TDDFT coefficients = 0.000000000000
+Exc. state 2 sum of squares of frozen core TDDFT coefficients = 0.000000000000
+Exc. state 2 sum of squares of frozen virtual TDDFT coefficients = 0.000000000000
+overlap matrix of Casida wavefunctions
+2 2
+0.937168006222 1.000000000000
+1.000000000000 1.103809184600
+Orthonormalization matrix
+2 2
+4.472653941419 -3.468709429426
+-3.468709429426 3.894624114649
+
+overlap check after orthonormalization
+2 2
+1.000000000000 -0.000000000000
+-0.000000000000 1.000000000000
+Orthonormalized wavefunctions used

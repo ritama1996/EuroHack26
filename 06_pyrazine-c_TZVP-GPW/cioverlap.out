@@ -1,0 +1,22 @@
+CIOVERLAP Fortran: starting determinant-mode overlap calculation
+Reading cioverlap.input and binary CI/slater files
+Input files loaded
+Input: 504 0 0 120
+Sraw: 1008 1008
+Bra LCAO: 504 504
+Ket LCAO: 504 504
+eivectors1: 81 53281
+eivectors2: 81 53281
+Slater determinants: 53281
+Active orbitals: 504
+Inactive determinant shortcut orbitals: 0
+Computing MO overlap matrix
+MO overlap matrix ready: 504 504
+Reading state screening mask: transmomin
+Computing screened determinant and CI overlaps
+Precomputing determinant spin blocks
+Distinct spin blocks: alpha = 26641 beta = 26641
+Determinant cache ceiling: alpha = 32538624 beta = 32538624
+Preparing coefficient screening bounds
+Ordering ket determinants for screening threshold =  5.00000E-04
+Accumulating CI overlap: 0%

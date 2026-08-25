@@ -1,0 +1,89 @@
+CIOVERLAP Fortran: starting determinant-mode overlap calculation
+Reading cioverlap.input and binary CI/slater files
+Input files loaded
+Input: 292 0 0 128
+Sraw: 584 584
+Bra LCAO: 292 292
+Ket LCAO: 292 292
+eivectors1: 6 29185
+eivectors2: 6 29185
+Slater determinants: 29185
+Active orbitals: 292
+Inactive determinant shortcut orbitals: 0
+Computing MO overlap matrix
+MO overlap matrix ready: 292 292
+Reading state screening mask: transmomin
+Computing screened determinant and CI overlaps
+Precomputing determinant spin blocks
+Distinct spin blocks: alpha = 14593 beta = 14593
+Determinant cache ceiling: alpha = 30624587 beta = 30624587
+Preparing coefficient screening bounds
+Ordering ket determinants for screening threshold =  5.00000E-04
+Accumulating CI overlap: 0%
+Accumulating CI overlap: 10%   elapsed       0.00 s   +      0.00 s   ETA       0.01 s
+Accumulating CI overlap: 20%   elapsed       0.00 s   +      0.00 s   ETA       0.01 s
+Accumulating CI overlap: 30%   elapsed       0.21 s   +      0.21 s   ETA       0.49 s
+Accumulating CI overlap: 40%   elapsed       1.45 s   +      1.24 s   ETA       2.17 s
+Accumulating CI overlap: 50%   elapsed       2.85 s   +      1.40 s   ETA       2.85 s
+Accumulating CI overlap: 60%   elapsed       4.75 s   +      1.90 s   ETA       3.16 s
+Accumulating CI overlap: 70%   elapsed       6.72 s   +      1.97 s   ETA       2.88 s
+Accumulating CI overlap: 80%   elapsed       8.77 s   +      2.05 s   ETA       2.19 s
+Accumulating CI overlap: 90%   elapsed      11.23 s   +      2.46 s   ETA       1.25 s
+Accumulating CI overlap: 100%   elapsed      30.63 s   +     19.40 s   ETA       0.00 s
+Accumulating CI overlap: done
+Screened CI overlap accumulation complete
+Number of computed overlap determinant pairs = 517249
+Number of skipped determinant pairs = 851246976
+Skipped by coefficient bound = 850864360
+Skipped by excitation rank = 0
+Skipped by coefficient threshold = 382616
+Determinant cache capacity = 30624587
+Alpha determinant cache hits/misses = 372719 144530
+Beta determinant cache hits/misses = 372719 144530
+ 
+CI overlap before alignment
+6 6
+  9.6896746533309064E-01   0.0000000000000000E+00   0.0000000000000000E+00   0.0000000000000000E+00   0.0000000000000000E+00   0.0000000000000000E+00
+  0.0000000000000000E+00  -9.5596142758187652E-01   0.0000000000000000E+00  -1.2700641826187014E-04   0.0000000000000000E+00   0.0000000000000000E+00
+  0.0000000000000000E+00   0.0000000000000000E+00  -9.3993382966317063E-01  -7.5541893710067684E-02   0.0000000000000000E+00   0.0000000000000000E+00
+  0.0000000000000000E+00  -2.6803102826271248E-03   7.6462978678143029E-02  -9.0385630080057167E-01  -2.3409553815852149E-01  -3.0351858306516755E-02
+  0.0000000000000000E+00   0.0000000000000000E+00   0.0000000000000000E+00  -2.2315405025033958E-01   9.2069642798630524E-01   0.0000000000000000E+00
+  0.0000000000000000E+00   0.0000000000000000E+00   0.0000000000000000E+00  -2.3489538475070043E-02   0.0000000000000000E+00   9.3342179690649163E-01
+ 
+Aligning phases by diagonal elements
+Phase alignment complete
+ 
+CI overlap aligned by diagonal for TD couplings:
+6 6
+  9.6896746533309064E-01  -0.0000000000000000E+00  -0.0000000000000000E+00  -0.0000000000000000E+00   0.0000000000000000E+00  -0.0000000000000000E+00
+  0.0000000000000000E+00   9.5596142758187652E-01  -0.0000000000000000E+00   1.2700641826187014E-04   0.0000000000000000E+00  -0.0000000000000000E+00
+  0.0000000000000000E+00  -0.0000000000000000E+00   9.3993382966317063E-01   7.5541893710067684E-02   0.0000000000000000E+00  -0.0000000000000000E+00
+  0.0000000000000000E+00   2.6803102826271248E-03  -7.6462978678143029E-02   9.0385630080057167E-01  -2.3409553815852149E-01   3.0351858306516755E-02
+  0.0000000000000000E+00  -0.0000000000000000E+00  -0.0000000000000000E+00   2.2315405025033958E-01   9.2069642798630524E-01  -0.0000000000000000E+00
+ -0.0000000000000000E+00   0.0000000000000000E+00   0.0000000000000000E+00  -2.3489538475070043E-02  -0.0000000000000000E+00   9.3342179690649163E-01
+ 
+Aligning phases by largest elements in the row
+Phase alignment complete
+ 
+CI overlap matrix
+6 6
+  9.6896746533309064E-01  -0.0000000000000000E+00  -0.0000000000000000E+00  -0.0000000000000000E+00   0.0000000000000000E+00  -0.0000000000000000E+00
+  0.0000000000000000E+00   9.5596142758187652E-01  -0.0000000000000000E+00   1.2700641826187014E-04   0.0000000000000000E+00  -0.0000000000000000E+00
+  0.0000000000000000E+00  -0.0000000000000000E+00   9.3993382966317063E-01   7.5541893710067684E-02   0.0000000000000000E+00  -0.0000000000000000E+00
+  0.0000000000000000E+00   2.6803102826271248E-03  -7.6462978678143029E-02   9.0385630080057167E-01  -2.3409553815852149E-01   3.0351858306516755E-02
+  0.0000000000000000E+00  -0.0000000000000000E+00  -0.0000000000000000E+00   2.2315405025033958E-01   9.2069642798630524E-01  -0.0000000000000000E+00
+ -0.0000000000000000E+00   0.0000000000000000E+00   0.0000000000000000E+00  -2.3489538475070043E-02  -0.0000000000000000E+00   9.3342179690649163E-01
+
+Timing summary (wall-clock seconds)
+-----------------------------------------------------------
+  phase                                         seconds    % total
+-----------------------------------------------------------
+  read input & CI/slater files                   0.3086       1.0%
+  MO overlap matrix                              0.0095       0.0%
+  screening mask                                 0.0000       0.0%
+  CI overlap accumulation                       30.7628      99.0%
+  phase alignment                                0.0001       0.0%
+-----------------------------------------------------------
+  other/unaccounted                              0.0003       0.0%
+  TOTAL                                         31.0814     100.0%
+-----------------------------------------------------------
