@@ -1,0 +1,10 @@
+# system=07_BDpy_def-SVP  molecule=BDpy  basis=def-SVP  cores_detected=24  repeats=3  Thu Aug 27 09:54:31 CEST 2026
+# cmd: /home/ritama/Softwares/cioverlap/bin/cioverlap_fort -s transmomin -a -t 5e-4 -e -1 < cioverlap.input
+# threads   total_s     accum_s     ideal_s    speedup   eff%   note
+1        1005.3258   1003.2757   1005.33   1.00     100.0  
+2        525.0953    522.9859    502.66    1.91     95.7   
+4        255.2532    253.3756    251.33    3.94     98.5   
+8        139.1288    137.2618    125.67    7.23     90.3   
+12       103.0046    101.1327    83.78     9.76     81.3   
+16       79.2567     77.3780     62.83     12.68    79.3   
+24       59.2203     57.3045     41.89     16.98    70.7   

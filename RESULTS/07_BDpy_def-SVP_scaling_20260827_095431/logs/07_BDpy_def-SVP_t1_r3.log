@@ -1,0 +1,83 @@
+CIOVERLAP Fortran: starting determinant-mode overlap calculation
+Reading cioverlap.input and binary CI/slater files
+Input files loaded
+Input: 712 0 0 284
+Sraw: 1424 1424
+Bra LCAO: 712 712
+Ket LCAO: 712 712
+eivectors1: 3 115141
+eivectors2: 3 115141
+Slater determinants: 115141
+Active orbitals: 712
+Inactive determinant shortcut orbitals: 0
+Computing MO overlap matrix
+MO overlap matrix ready: 712 712
+Reading state screening mask: transmomin
+Computing screened determinant and CI overlaps
+Precomputing determinant spin blocks
+Distinct spin blocks: alpha = 57571 beta = 57571
+Determinant cache ceiling: alpha = 14263506 beta = 14263506
+Preparing coefficient screening bounds
+Ordering ket determinants for screening threshold =  5.00000E-04
+Accumulating CI overlap: 0%
+Accumulating CI overlap: 10%   elapsed     919.86 s   +    919.86 s   ETA    8278.71 s
+Accumulating CI overlap: 20%   elapsed     955.46 s   +     35.60 s   ETA    3821.84 s
+Accumulating CI overlap: 30%   elapsed     982.27 s   +     26.81 s   ETA    2291.97 s
+Accumulating CI overlap: 40%   elapsed    1002.58 s   +     20.31 s   ETA    1503.87 s
+Accumulating CI overlap: 50%   elapsed    1002.74 s   +      0.16 s   ETA    1002.74 s
+Accumulating CI overlap: 60%   elapsed    1002.74 s   +      0.00 s   ETA     668.49 s
+Accumulating CI overlap: 70%   elapsed    1002.74 s   +      0.00 s   ETA     429.74 s
+Accumulating CI overlap: 80%   elapsed    1002.74 s   +      0.00 s   ETA     250.68 s
+Accumulating CI overlap: 90%   elapsed    1002.74 s   +      0.00 s   ETA     111.42 s
+Accumulating CI overlap: 100%   elapsed    1002.74 s   +      0.00 s   ETA       0.00 s
+Accumulating CI overlap: done
+Screened CI overlap accumulation complete
+Number of computed overlap determinant pairs = 2054385
+Number of skipped determinant pairs = 13255395496
+Skipped by coefficient bound = 13255295612
+Skipped by excitation rank = 0
+Skipped by coefficient threshold = 99884
+Alpha determinant cache: allocated 1048576 entries, used 560751 entries
+Beta determinant cache: allocated 1048576 entries, used 560751 entries
+Determinant cache ceiling (max entries, never exceeded) = 14263506
+Alpha determinant cache hits/misses = 1493634 560751
+Beta determinant cache hits/misses = 1493634 560751
+Process peak resident memory = 1613 MB
+ 
+CI overlap before alignment
+3 3
+  7.7917007408365047E-01   0.0000000000000000E+00   0.0000000000000000E+00
+  0.0000000000000000E+00  -5.1868692467978006E-01  -1.8615177776035985E-01
+  0.0000000000000000E+00  -1.8848904182790011E-01  -6.4043394671030296E-01
+ 
+Aligning phases by diagonal elements
+Phase alignment complete
+ 
+CI overlap aligned by diagonal for TD couplings:
+3 3
+  7.7917007408365047E-01   0.0000000000000000E+00   0.0000000000000000E+00
+ -0.0000000000000000E+00   5.1868692467978006E-01   1.8615177776035985E-01
+ -0.0000000000000000E+00   1.8848904182790011E-01   6.4043394671030296E-01
+ 
+Aligning phases by largest elements in the row
+Phase alignment complete
+ 
+CI overlap matrix
+3 3
+  7.7917007408365047E-01   0.0000000000000000E+00   0.0000000000000000E+00
+ -0.0000000000000000E+00   5.1868692467978006E-01   1.8615177776035985E-01
+ -0.0000000000000000E+00   1.8848904182790011E-01   6.4043394671030296E-01
+
+Timing summary (wall-clock seconds)
+-----------------------------------------------------------
+  phase                                         seconds    % total
+-----------------------------------------------------------
+  read input & CI/slater files                   1.8440       0.2%
+  MO overlap matrix                              0.2057       0.0%
+  screening mask                                 0.0001       0.0%
+  CI overlap accumulation                     1003.2757      99.8%
+  phase alignment                                0.0001       0.0%
+-----------------------------------------------------------
+  other/unaccounted                              0.0003       0.0%
+  TOTAL                                       1005.3258     100.0%
+-----------------------------------------------------------

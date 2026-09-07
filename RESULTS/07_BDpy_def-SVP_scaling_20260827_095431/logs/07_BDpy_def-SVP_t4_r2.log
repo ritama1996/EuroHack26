@@ -1,0 +1,84 @@
+CIOVERLAP Fortran: starting determinant-mode overlap calculation
+Reading cioverlap.input and binary CI/slater files
+Input files loaded
+Input: 712 0 0 284
+Sraw: 1424 1424
+Bra LCAO: 712 712
+Ket LCAO: 712 712
+eivectors1: 3 115141
+eivectors2: 3 115141
+Slater determinants: 115141
+Active orbitals: 712
+Inactive determinant shortcut orbitals: 0
+Computing MO overlap matrix
+MO overlap matrix ready: 712 712
+Reading state screening mask: transmomin
+Computing screened determinant and CI overlaps
+Precomputing determinant spin blocks
+Distinct spin blocks: alpha = 57571 beta = 57571
+Determinant cache ceiling: alpha = 14263506 beta = 14263506
+Preparing coefficient screening bounds
+Ordering ket determinants for screening threshold =  5.00000E-04
+Accumulating CI overlap with OpenMP threads = 4 per-thread cache capacity = 65536
+Accumulating CI overlap: 0%
+Accumulating CI overlap: 10%   elapsed     239.82 s   +    239.82 s   ETA    2158.42 s
+Accumulating CI overlap: 20%   elapsed     248.32 s   +      8.49 s   ETA     993.27 s
+Accumulating CI overlap: 30%   elapsed     254.78 s   +      6.46 s   ETA     594.48 s
+Accumulating CI overlap: 40%   elapsed     259.66 s   +      4.89 s   ETA     389.50 s
+Accumulating CI overlap: 50%   elapsed     259.70 s   +      0.04 s   ETA     259.70 s
+Accumulating CI overlap: 60%   elapsed     259.71 s   +      0.00 s   ETA     173.14 s
+Accumulating CI overlap: 70%   elapsed     259.71 s   +      0.00 s   ETA     111.30 s
+Accumulating CI overlap: 80%   elapsed     259.71 s   +      0.00 s   ETA      64.93 s
+Accumulating CI overlap: 90%   elapsed     259.71 s   +      0.00 s   ETA      28.86 s
+Accumulating CI overlap: 100%   elapsed     259.71 s   +      0.00 s   ETA       0.00 s
+Accumulating CI overlap: done
+Screened CI overlap accumulation complete
+Number of computed overlap determinant pairs = 2054385
+Number of skipped determinant pairs = 13255395496
+Skipped by coefficient bound = 13255295612
+Skipped by excitation rank = 0
+Skipped by coefficient threshold = 99884
+Alpha determinant cache: allocated 1048576 entries, used 582215 entries
+Beta determinant cache: allocated 1048576 entries, used 582892 entries
+Determinant cache ceiling (max entries, never exceeded) = 14263506
+Alpha determinant cache hits/misses = 1472170 582215
+Beta determinant cache hits/misses = 1471493 582892
+Process peak resident memory = 1696 MB
+ 
+CI overlap before alignment
+3 3
+  7.7917007408365047E-01   0.0000000000000000E+00   0.0000000000000000E+00
+  0.0000000000000000E+00  -5.1868692467978239E-01  -1.8615177776037328E-01
+  0.0000000000000000E+00  -1.8848904182793647E-01  -6.4043394671027221E-01
+ 
+Aligning phases by diagonal elements
+Phase alignment complete
+ 
+CI overlap aligned by diagonal for TD couplings:
+3 3
+  7.7917007408365047E-01   0.0000000000000000E+00   0.0000000000000000E+00
+ -0.0000000000000000E+00   5.1868692467978239E-01   1.8615177776037328E-01
+ -0.0000000000000000E+00   1.8848904182793647E-01   6.4043394671027221E-01
+ 
+Aligning phases by largest elements in the row
+Phase alignment complete
+ 
+CI overlap matrix
+3 3
+  7.7917007408365047E-01   0.0000000000000000E+00   0.0000000000000000E+00
+ -0.0000000000000000E+00   5.1868692467978239E-01   1.8615177776037328E-01
+ -0.0000000000000000E+00   1.8848904182793647E-01   6.4043394671027221E-01
+
+Timing summary (wall-clock seconds)
+-----------------------------------------------------------
+  phase                                         seconds    % total
+-----------------------------------------------------------
+  read input & CI/slater files                   1.8439       0.7%
+  MO overlap matrix                              0.2014       0.1%
+  screening mask                                 0.0001       0.0%
+  CI overlap accumulation                      260.3313      99.2%
+  phase alignment                                0.0001       0.0%
+-----------------------------------------------------------
+  other/unaccounted                              0.0003       0.0%
+  TOTAL                                        262.3771     100.0%
+-----------------------------------------------------------

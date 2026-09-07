@@ -1,0 +1,8 @@
+# system=02_pyrazine_def2-TZVP  molecule=pyrazine  basis=def2-TZVP  cores_detected=24  repeats=3  Tue Aug 25 16:45:35 CEST 2026
+# cmd: /home/ritama/Softwares/cioverlap/bin/cioverlap_fort -s transmomin -a -t 5e-4 -e -1 < cioverlap.input
+# threads   total_s     accum_s     ideal_s    speedup   eff%   note
+1        20.2405     20.0546     20.24     1.00     100.0  
+2        10.4755     10.2968     10.12     1.93     96.6   
+4        5.6320      5.4485      5.06      3.59     89.8   
+8        3.0992      2.9196      2.53      6.53     81.6   
+16       1.8136      1.5428      1.27      11.16    69.8   
